@@ -1,4 +1,4 @@
-export default [
+export const programQuestions = [
     {
         question: "what is your name?",
         a: {option: "Rita", isCorrect: true},

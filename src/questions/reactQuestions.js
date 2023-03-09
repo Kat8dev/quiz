@@ -1,4 +1,4 @@
-export default [
+export const reactQuestions = [
     {
         question: "React renders HTML to the web page by using a function called...?",
         a: {option: "ReactDOM.render()", isCorrect: true},

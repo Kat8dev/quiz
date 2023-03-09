@@ -1,6 +1,8 @@
-export {default as programQuestions} from "./programQuestions";
-export {default as ancientWorld} from "./ancientWorld";
-export {default as reactQuestions} from "./reactQuestions";
-export {default as jsQuestions} from "./jsQuestions";
-export {default as cssQuestions} from "./cssQuestions";
+import { ancientWorld } from "./ancientWorld"
+import { programQuestions } from "./programQuestions";
+import { cssQuestions } from "./cssQuestions";
+import { jsQuestions } from "./jsQuestions";
+import { reactQuestions } from "./reactQuestions";
+
+export  {programQuestions, ancientWorld, cssQuestions, jsQuestions, reactQuestions};
 

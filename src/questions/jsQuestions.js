@@ -1,4 +1,4 @@
-export default [
+export const jsQuestions = [
     {
         question: "What is JSON??",
         a: {option: "JavaScript Object Notation", isCorrect: true},

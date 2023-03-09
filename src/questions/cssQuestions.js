@@ -1,4 +1,4 @@
-export default [
+export const cssQuestions = [
     {
         question: "When you set the width and height properties of an element with CSS, you just set...?",
         a: {option: "The width and height of the content area", isCorrect: true},

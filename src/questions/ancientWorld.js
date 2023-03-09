@@ -1,4 +1,4 @@
-export default [
+export const ancientWorld = [
     {
         question: "Who was the first Pharaoh of Ancient Egypt?",
         a: {option: "The first Pharaoh of Ancient Egypt was Narmer (also known as Menes)", isCorrect: true},
