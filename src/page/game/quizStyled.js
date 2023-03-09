@@ -3,11 +3,13 @@ import styled from "styled-components";
 export const QuizContainer = styled.div`
   display: flex;
   justify-content: center;
-  .timer {
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%);
+  padding: 2rem;
+  .game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
   }
 `;
 

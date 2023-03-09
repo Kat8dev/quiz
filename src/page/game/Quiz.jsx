@@ -39,7 +39,12 @@ function Quiz({ restart }) {
   return (
     <QuizContainer>
       {!gameEnd.isEnd ? (
-        <>
+        <div className='game'>
+          <Timer
+            second={timer}
+            setSecond={setTimer}
+            setGameOver={setGameEnd}
+          />
           <QuestionsAnswers
             a={a}
             b={b}
@@ -49,13 +54,7 @@ function Quiz({ restart }) {
             question={question}
             onClick={handleClick}
           />
-          <Timer
-            className="timer"
-            second={timer}
-            setSecond={setTimer}
-            setGameOver={setGameEnd}
-          />
-        </>
+        </div>
       ) : (
         <Restart>
           <p>{gameEnd.text}</p>
