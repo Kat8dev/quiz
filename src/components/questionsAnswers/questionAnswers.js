@@ -7,7 +7,9 @@ export const QuestionsAnswersStyled = styled.div`
   align-items: flex-end;
   justify-content: center;
   padding: 1rem;
-
+  .wrapper {
+    margin-bottom: 3rem;
+  }
 `;
 
 export const QuestionBox = styled.div`
